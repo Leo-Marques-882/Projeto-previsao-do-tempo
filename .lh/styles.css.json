@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 13,
+            "activePatchIndex": 14,
             "patches": [
                 {
                     "date": 1675364533090,
@@ -60,6 +60,10 @@
                 {
                     "date": 1676070919230,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n    border-radius: 25px;\r\n }\r\n \r\n .caixa-menor {\r\n-   display: flex;\r\n-   margin-top: 30px;\r\n-   align-items: center;\r\n+display: flex;\r\n+margin-top: 30px;\r\n+align-items: center;\r\n \r\n }\r\n \r\n h2 {\r\n@@ -96,11 +96,5 @@\n }\r\n \r\n .caixa-media {\r\n    margin-top: 20px;\r\n-}\r\n-\r\n-.leonardo {\r\n-\r\n-   margin-bottom: 600px;\r\n-  \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1678634541324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n    border-radius: 25px;\r\n }\r\n \r\n .caixa-menor {\r\n-display: flex;\r\n-margin-top: 30px;\r\n-align-items: center;\r\n+   display: flex;\r\n+   margin-top: 30px;\r\n+   align-items: center;\r\n \r\n }\r\n \r\n h2 {\r\n@@ -96,5 +96,12 @@\n }\r\n \r\n .caixa-media {\r\n    margin-top: 20px;\r\n+}\r\n+\r\n+@media(max-width:991px) {\r\n+   input {\r\n+      font-size: 16px;\r\n+      width: calc(100% - 65px);\r\n+   }\r\n }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1675364533090,
