@@ -1,0 +1,70 @@
+{
+    "sourceFile": "styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1675364533090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1675376254153,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,12 +33,13 @@\n }\r\n \r\n .temp {\r\n      color: #ffffff;\r\n-     margin-top: 40px;\r\n+     margin-top: 30px;\r\n      margin-left: 0px;\r\n      margin-right: 0px;\r\n      margin-bottom: 40px;\r\n+     \r\n }\r\n .descricao {\r\n \r\n      color: #ffffff;\r\n"
+                },
+                {
+                    "date": 1675376284184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,17 +42,17 @@\n }\r\n .descricao {\r\n \r\n      color: #ffffff;\r\n-     margin-top: 40px;\r\n+     margin-top: 30px;\r\n      margin-left: 0px;\r\n      margin-right: 0px;\r\n      margin-bottom: 40px;\r\n }\r\n .umidade {\r\n \r\n      color: #ffffff;\r\n-     margin-top: 40px;\r\n+     margin-top: 30px;\r\n      margin-left: 0px;\r\n      margin-right: 0px;\r\n      margin-bottom: 40px;\r\n }\r\n"
+                },
+                {
+                    "date": 1676069997963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,92 +1,100 @@\n-*{\r\n-      margin: 0px;\r\n-      padding: 0;\r\n-      box-sizing: border-box;\r\n-      font-family: 'Open Sans', sans-serif;\r\n+* {\r\n+   margin: 0px;\r\n+   padding: 0;\r\n+   box-sizing: border-box;\r\n+   font-family: 'Open Sans', sans-serif;\r\n }\r\n \r\n-body{\r\n-      display:flex;\r\n-      justify-content: center;\r\n-      align-items: center;\r\n-      height: 100vh;\r\n-      width: 100vw;\r\n-      background: url(\"https://source.unsplash.com/1600x900/?landscape\")\r\n+body {\r\n+   display: flex;\r\n+   justify-content: center;\r\n+   align-items: center;\r\n+   height: 100vh;\r\n+   width: 100vw;\r\n+   background: url(\"https://source.unsplash.com/1600x900/?landscape\")\r\n }\r\n-.caixa-maior{\r\n \r\n-      background-color: #000000;\r\n-      width: 95%;\r\n-      max-width: 420px;\r\n-      opacity: 0.8;\r\n-      padding: 20px;\r\n-      border-radius: 25px;\r\n+.caixa-maior {\r\n+\r\n+   background-color: #000000;\r\n+   width: 95%;\r\n+   max-width: 420px;\r\n+   opacity: 0.8;\r\n+   padding: 20px;\r\n+   border-radius: 25px;\r\n }\r\n \r\n-h2{\r\n-      color: #ffffff;\r\n-      font-size: 28px;\r\n-      margin-top: 40px;\r\n-      margin-left: 0px;\r\n-      margin-right: 0px;\r\n-      margin-bottom: 40px;\r\n+.caixa-menor {\r\n+   display: flex;\r\n+   margin-top: 30px;\r\n+   align-items: center;\r\n+\r\n }\r\n \r\n+h2 {\r\n+   color: #ffffff;\r\n+   font-size: 28px;\r\n+   margin-top: 40px;\r\n+   margin-left: 0px;\r\n+   margin-right: 0px;\r\n+   margin-bottom: 40px;\r\n+}\r\n+\r\n .temp {\r\n-     color: #ffffff;\r\n-     margin-top: 30px;\r\n-     margin-left: 0px;\r\n-     margin-right: 0px;\r\n-     margin-bottom: 40px;\r\n-     \r\n+   color: #ffffff;\r\n+   margin-top: 30px;\r\n+   margin-left: 0px;\r\n+   margin-right: 0px;\r\n+   margin-bottom: 40px;\r\n+\r\n }\r\n+\r\n .descricao {\r\n \r\n-     color: #ffffff;\r\n-     margin-top: 30px;\r\n-     margin-left: 0px;\r\n-     margin-right: 0px;\r\n-     margin-bottom: 40px;\r\n+   color: #ffffff;\r\n+   text-transform: capitalize;\r\n+   margin-left: 10px;\r\n }\r\n+\r\n .umidade {\r\n \r\n-     color: #ffffff;\r\n-     margin-top: 30px;\r\n-     margin-left: 0px;\r\n-     margin-right: 0px;\r\n-     margin-bottom: 40px;\r\n+   color: #ffffff;\r\n+   margin-top: 30px;\r\n+   margin-left: 0px;\r\n+   margin-right: 0px;\r\n+   margin-bottom: 40px;\r\n }\r\n \r\n-input{\r\n-     border: none;\r\n-     outline: none;\r\n-     padding: 10px;\r\n-     border-radius: 24px;\r\n-     font-size: 20px;\r\n-     background-color: #7c7c7c2b;\r\n-     color: white;\r\n-     width: calc(100% - 100px);\r\n+input {\r\n+   border: none;\r\n+   outline: none;\r\n+   padding: 10px;\r\n+   border-radius: 24px;\r\n+   font-size: 20px;\r\n+   background-color: #7c7c7c2b;\r\n+   color: white;\r\n+   width: calc(100% - 100px);\r\n }\r\n \r\n .lupa {\r\n-     height: 25px;\r\n-     /*background-color: #7c7c7c2b;*/\r\n+   height: 25px;\r\n+   /*background-color: #7c7c7c2b;*/\r\n }\r\n \r\n-button{\r\n-     border: none;\r\n-     outline: none;\r\n-     padding: 10px;\r\n-     border-radius: 50px;\r\n-     background-color:#7c7c7c2b ;\r\n-     float: right;\r\n-     cursor: pointer;\r\n+button {\r\n+   border: none;\r\n+   outline: none;\r\n+   padding: 10px;\r\n+   border-radius: 50px;\r\n+   background-color: #7c7c7c2b;\r\n+   float: right;\r\n+   cursor: pointer;\r\n }\r\n \r\n button:hover {\r\n-     background-color: #7c7c7c6b;\r\n+   background-color: #7c7c7c6b;\r\n }\r\n \r\n .caixa-media {\r\n-     margin-top: 20px;\r\n+   margin-top: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070247950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,5 +96,10 @@\n }\r\n \r\n .caixa-media {\r\n    margin-top: 20px;\r\n+}\r\n+\r\n+h2 {\r\n+\r\n+   margin-top: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070350780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -98,8 +98,8 @@\n .caixa-media {\r\n    margin-top: 20px;\r\n }\r\n \r\n-h2 {\r\n+.leonardo {\r\n \r\n    margin-top: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070457712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,6 +100,6 @@\n }\r\n \r\n .leonardo {\r\n \r\n-   margin-top: 20px;\r\n+   margin-bottom: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070513447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,6 +100,6 @@\n }\r\n \r\n .leonardo {\r\n \r\n-   margin-bottom: 20px;\r\n+   margin-bottom: 500px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070556771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,5 +101,6 @@\n \r\n .leonardo {\r\n \r\n    margin-bottom: 500px;\r\n+   margin-right: 300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070599273,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,6 +101,6 @@\n \r\n .leonardo {\r\n \r\n    margin-bottom: 500px;\r\n-   margin-right: 300px;\r\n+   margin-left:  300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070697633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,7 +100,7 @@\n }\r\n \r\n .leonardo {\r\n \r\n-   margin-bottom: 500px;\r\n+   margin-bottom: 700px;\r\n    margin-left:  300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070727344,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -100,7 +100,7 @@\n }\r\n \r\n .leonardo {\r\n \r\n-   margin-bottom: 700px;\r\n+   margin-bottom: 600px;\r\n    margin-left:  300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070752653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -101,6 +101,6 @@\n \r\n .leonardo {\r\n \r\n    margin-bottom: 600px;\r\n-   margin-left:  300px;\r\n+  \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676070919230,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,11 +24,11 @@\n    border-radius: 25px;\r\n }\r\n \r\n .caixa-menor {\r\n-   display: flex;\r\n-   margin-top: 30px;\r\n-   align-items: center;\r\n+display: flex;\r\n+margin-top: 30px;\r\n+align-items: center;\r\n \r\n }\r\n \r\n h2 {\r\n@@ -96,11 +96,5 @@\n }\r\n \r\n .caixa-media {\r\n    margin-top: 20px;\r\n-}\r\n-\r\n-.leonardo {\r\n-\r\n-   margin-bottom: 600px;\r\n-  \r\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1675364533090,
+            "name": "Commit-0",
+            "content": "*{\r\n      margin: 0px;\r\n      padding: 0;\r\n      box-sizing: border-box;\r\n      font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\nbody{\r\n      display:flex;\r\n      justify-content: center;\r\n      align-items: center;\r\n      height: 100vh;\r\n      width: 100vw;\r\n      background: url(\"https://source.unsplash.com/1600x900/?landscape\")\r\n}\r\n.caixa-maior{\r\n\r\n      background-color: #000000;\r\n      width: 95%;\r\n      max-width: 420px;\r\n      opacity: 0.8;\r\n      padding: 20px;\r\n      border-radius: 25px;\r\n}\r\n\r\nh2{\r\n      color: #ffffff;\r\n      font-size: 28px;\r\n      margin-top: 40px;\r\n      margin-left: 0px;\r\n      margin-right: 0px;\r\n      margin-bottom: 40px;\r\n}\r\n\r\n.temp {\r\n     color: #ffffff;\r\n     margin-top: 40px;\r\n     margin-left: 0px;\r\n     margin-right: 0px;\r\n     margin-bottom: 40px;\r\n}\r\n.descricao {\r\n\r\n     color: #ffffff;\r\n     margin-top: 40px;\r\n     margin-left: 0px;\r\n     margin-right: 0px;\r\n     margin-bottom: 40px;\r\n}\r\n.umidade {\r\n\r\n     color: #ffffff;\r\n     margin-top: 40px;\r\n     margin-left: 0px;\r\n     margin-right: 0px;\r\n     margin-bottom: 40px;\r\n}\r\n\r\ninput{\r\n     border: none;\r\n     outline: none;\r\n     padding: 10px;\r\n     border-radius: 24px;\r\n     font-size: 20px;\r\n     background-color: #7c7c7c2b;\r\n     color: white;\r\n     width: calc(100% - 100px);\r\n}\r\n\r\n.lupa {\r\n     height: 25px;\r\n     /*background-color: #7c7c7c2b;*/\r\n}\r\n\r\nbutton{\r\n     border: none;\r\n     outline: none;\r\n     padding: 10px;\r\n     border-radius: 50px;\r\n     background-color:#7c7c7c2b ;\r\n     float: right;\r\n     cursor: pointer;\r\n}\r\n\r\nbutton:hover {\r\n     background-color: #7c7c7c6b;\r\n}\r\n\r\n.caixa-media {\r\n     margin-top: 20px;\r\n}"
+        }
+    ]
+}
